@@ -1,0 +1,300 @@
+﻿distributionUrl in D:\Astr
+a\android\gradle\wrapper\g
+radle-wrapper.properties 
+to gradle-8.9-all.zip
+[        ] * Try:
+[        ] > Run with 
+--debug option to get 
+more log output.
+[        ] > Run with 
+--scan to get full 
+insights.
+[        ] > Get more 
+help at 
+https://help.gradle.org.
+[        ] * Exception is:
+[        ] org.gradle.api.
+plugins.InvalidPluginExcep
+tion: An exception 
+occurred applying plugin 
+request [id: 
+'com.android.application']
+[        ] 	at org.gradle.
+plugin.use.internal.Defaul
+tPluginRequestApplicator.e
+xceptionOccurred(DefaultPl
+uginRequestApplicator.java
+:179)
+[        ] 	at org.gradle.
+plugin.use.internal.Defaul
+tPluginRequestApplicator.a
+ccess$400(DefaultPluginReq
+uestApplicator.java:52)
+[   +2 ms] 	at org.gradle.
+plugin.use.internal.Defaul
+tPluginRequestApplicator$A
+pplyAction.apply(DefaultPl
+uginRequestApplicator.java
+:160)
+[        ] 	at org.gradle.
+plugin.use.internal.Defaul
+tPluginRequestApplicator.l
+ambda$applyPlugins$1(Defau
+ltPluginRequestApplicator.
+java:130)
+[        ] 	at java.base/j
+ava.util.ArrayList.forEach
+(Unknown Source)
+[        ] 	at org.gradle.
+plugin.use.internal.Defaul
+tPluginRequestApplicator.a
+pplyPlugins(DefaultPluginR
+equestApplicator.java:130)
+[        ] 	at org.gradle.
+configuration.DefaultScrip
+tPluginFactory$ScriptPlugi
+nImpl.apply(DefaultScriptP
+luginFactory.java:120)
+[   +1 ms] 	at org.gradle.
+configuration.BuildOperati
+onScriptPlugin$1.run(Build
+OperationScriptPlugin.java
+:68)
+[   +1 ms] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner$1.ex
+ecute(DefaultBuildOperatio
+nRunner.java:29)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner$1.ex
+ecute(DefaultBuildOperatio
+nRunner.java:26)
+[   +3 ms] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner$2.ex
+ecute(DefaultBuildOperatio
+nRunner.java:66)
+[   +1 ms] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner$2.ex
+ecute(DefaultBuildOperatio
+nRunner.java:59)
+[   +1 ms] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner.exec
+ute(DefaultBuildOperationR
+unner.java:157)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner.exec
+ute(DefaultBuildOperationR
+unner.java:59)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner.run(
+DefaultBuildOperationRunne
+r.java:47)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationExecutor.ru
+n(DefaultBuildOperationExe
+cutor.java:68)
+[        ] 	at org.gradle.
+configuration.BuildOperati
+onScriptPlugin.lambda$appl
+y$0(BuildOperationScriptPl
+ugin.java:65)
+[        ] 	at org.gradle.
+internal.code.DefaultUserC
+odeApplicationContext.appl
+y(DefaultUserCodeApplicati
+onContext.java:43)
+[   +1 ms] 	at org.gradle.
+configuration.BuildOperati
+onScriptPlugin.apply(Build
+OperationScriptPlugin.java
+:65)
+[        ] 	at org.gradle.
+api.internal.project.Defau
+ltProjectStateRegistry$Pro
+jectStateImpl.lambda$apply
+ToMutableState$1(DefaultPr
+ojectStateRegistry.java:40
+7)
+[        ] 	at org.gradle.
+api.internal.project.Defau
+ltProjectStateRegistry$Pro
+jectStateImpl.fromMutableS
+tate(DefaultProjectStateRe
+gistry.java:425)
+[        ] 	at org.gradle.
+api.internal.project.Defau
+ltProjectStateRegistry$Pro
+jectStateImpl.applyToMutab
+leState(DefaultProjectStat
+eRegistry.java:406)
+[        ] 	at org.gradle.
+configuration.project.Buil
+dScriptProcessor.execute(B
+uildScriptProcessor.java:4
+6)
+[        ] 	at org.gradle.
+configuration.project.Buil
+dScriptProcessor.execute(B
+uildScriptProcessor.java:2
+7)
+[        ] 	at org.gradle.
+configuration.project.Conf
+igureActionsProjectEvaluat
+or.evaluate(ConfigureActio
+nsProjectEvaluator.java:35
+)
+[        ] 	at org.gradle.
+configuration.project.Life
+cycleProjectEvaluator$Eval
+uateProject.lambda$run$0(L
+ifecycleProjectEvaluator.j
+ava:109)
+[        ] 	at org.gradle.
+api.internal.project.Defau
+ltProjectStateRegistry$Pro
+jectStateImpl.lambda$apply
+ToMutableState$1(DefaultPr
+ojectStateRegistry.java:40
+7)
+[        ] 	at org.gradle.
+api.internal.project.Defau
+ltProjectStateRegistry$Pro
+jectStateImpl.lambda$fromM
+utableState$2(DefaultProje
+ctStateRegistry.java:430)
+[        ] 	at org.gradle.
+internal.work.DefaultWorke
+rLeaseService.withReplaced
+Locks(DefaultWorkerLeaseSe
+rvice.java:360)
+[        ] 	at org.gradle.
+api.internal.project.Defau
+ltProjectStateRegistry$Pro
+jectStateImpl.fromMutableS
+tate(DefaultProjectStateRe
+gistry.java:430)
+[   +1 ms] 	at org.gradle.
+api.internal.project.Defau
+ltProjectStateRegistry$Pro
+jectStateImpl.applyToMutab
+leState(DefaultProjectStat
+eRegistry.java:406)
+[        ] 	at org.gradle.
+configuration.project.Life
+cycleProjectEvaluator$Eval
+uateProject.run(LifecycleP
+rojectEvaluator.java:100)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner$1.ex
+ecute(DefaultBuildOperatio
+nRunner.java:29)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner$1.ex
+ecute(DefaultBuildOperatio
+nRunner.java:26)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner$2.ex
+ecute(DefaultBuildOperatio
+nRunner.java:66)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner$2.ex
+ecute(DefaultBuildOperatio
+nRunner.java:59)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner.exec
+ute(DefaultBuildOperationR
+unner.java:157)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner.exec
+ute(DefaultBuildOperationR
+unner.java:59)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationRunner.run(
+DefaultBuildOperationRunne
+r.java:47)
+[        ] 	at org.gradle.
+internal.operations.Defaul
+tBuildOperationExecutor.ru
+n(DefaultBuildOperationExe
+cutor.java:68)
+[        ] 	at org.gradle.
+configuration.project.Life
+cycleProjectEvaluator.eval
+uate(LifecycleProjectEvalu
+ator.java:72)
+[        ] 	at org.gradle.
+api.internal.project.Defau
+ltProject.evaluate(Default
+Project.java:785)
+[        ] 	at org.gradle.
+api.internal.project.Defau
+ltProject.evaluate(Default
+Project.java:155)
+[        ] 	at org.gradle.
+api.internal.project.Proje
+ctLifecycleController.lamb
+da$ensureSelfConfigured$2(
+ProjectLifecycleController
+.java:84)
+[        ] 	at org.gradle.
+internal.model.StateTransi
+tionController.lambda$doTr
+ansition$14(StateTransitio
+nController.java:255)
+[        ] 	at org.gradle.
+internal.model.StateTransi
+tionController.doTransitio
+n(StateTransitionControlle
+r.java:266)
+[        ] 	at org.gradle.
+internal.model.StateTransi
+tionController.doTransitio
+n(StateTransitionControlle
+r.java:254)
+[        ] 	at org.gradle.
+internal.model.StateTransi
+tionController.lambda$mayb
+eTransitionIfNotCurrentlyT
+ransitioning$10(StateTrans
+itionController.java:199)
+[        ] 	at org.gradle.
+internal.work.DefaultSynch
+ronizer.withLock(DefaultSy
+nchronizer.java:34)
+[        ] 	at org.gradle.
+internal.model.StateTransi
+tionController.maybeTransi
+tionIfNotCurrentlyTransiti
+oning(StateTransitionContr
+oller.java:195)
+[        ] 	at org.gradle.
+api.internal.project.Proje
+ctLifecycleController.ensu
+reSelfConfigured(ProjectLi
+fecycleController.java:84)
+[        ] 	at org.gradle.
+api.internal.project.Defau
+ltProjectStateRegistry$Pro
+jectStateImpl.ensureConfig
+ured(DefaultProjectStateRe
+gistry.java:381)
+[        ] 	at org.gradle.
+execution.TaskPathProjectE
+valuator.configure(TaskPat
+hProjectEvaluator.java:34)
+[        ] 	at org.gradle.
+execution.TaskPathProjectE

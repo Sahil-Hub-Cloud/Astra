@@ -1,0 +1,1 @@
+﻿[  +92 ms] [  +22 ms] Target dart_build failed: Error: Building native assets failed. See the logs for more details.

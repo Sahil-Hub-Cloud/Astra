@@ -1,0 +1,73 @@
+﻿Running Gradle task 'assembleDebug'...                          
+D:\Astra\flutter\bin\
+flutter.bat : 
+At line:1 char:1
++ D:\Astra\flutter\bi
+n\flutter.bat build 
+apk --debug 
+--no-color > build 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (:String   
+ ) [], RemoteExce    
+ption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+FAILURE: Build 
+failed with an 
+exception.
+
+* Where:
+Build file 'D:\Astra\
+android\app\build.gra
+dle' line: 2
+
+* What went wrong:
+An exception 
+occurred applying 
+plugin request [id: '
+com.android.applicati
+on']
+> Failed to apply 
+plugin 'com.android.i
+nternal.version-check
+'.
+   > Minimum 
+supported Gradle 
+version is 8.9. 
+Current version is 
+8.7. If using the 
+gradle wrapper, try 
+editing the 
+distributionUrl in D:
+\Astra\android\gradle
+\wrapper\gradle-wrapp
+er.properties to 
+gradle-8.9-all.zip
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 2s
+Running Gradle task 'assembleDebug'...                              3.6s
+Gradle task 
+assembleDebug failed 
+with exit code 1

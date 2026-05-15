@@ -1,0 +1,2 @@
+﻿C:\Program Files\Android\Android Studio\jbr\bin\javac.exe
+C:\Program Files\Android\Android Studio1\jbr\bin\javac.exe

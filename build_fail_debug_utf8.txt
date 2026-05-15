@@ -1,0 +1,205 @@
+﻿Running Gradle task 'assembleDebug'...                          
+.\flutter\bin\flutter
+.bat : Warning: 
+Flutter support for 
+your project's 
+Android Gradle 
+Plugin version 
+(Android Gradle 
+Plugin version 
+8.5.2) will soon be 
+dropped. Please 
+upgrade your Android 
+Gradle Plugin 
+version to a version 
+of at least Android 
+Gradle Plugin 
+version 8.6.0 soon.
+At line:1 char:72
++ ...  $env:PATH; .\f
+lutter\bin\flutter.ba
+t build apk --debug 
+> build_fail_ ...
++                 ~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Warning   
+ : Flutte...ion 8    
+.6.0 soon.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Alternatively, use 
+the flag "--android-s
+kip-build-dependency-
+validation" to 
+bypass this check.
+
+Potential fix: Your 
+project's AGP 
+version is typically 
+defined in the 
+plugins block of the 
+`settings.gradle` 
+file (D:\Astra\an
+droid/settings.gradle
+), by a plugin with 
+the id of com.android
+.application. 
+If you don't see a 
+plugins block, your 
+project was likely 
+created with an 
+older template 
+version. In this 
+case it is most 
+likely defined in 
+the top-level 
+build.gradle file 
+(D:\Astra\android
+/build.gradle) by 
+the following line 
+in the dependencies 
+block of the 
+buildscript: 
+"classpath 'com.andro
+id.tools.build:gradle
+:<version>'".
+
+Warning: Flutter 
+support for your 
+project's Kotlin 
+version (1.9.24) 
+will soon be 
+dropped. Please 
+upgrade your Kotlin 
+version to a version 
+of at least 2.1.0 
+soon.
+Alternatively, use 
+the flag "--android-s
+kip-build-dependency-
+validation" to 
+bypass this check.
+
+Potential fix: Your 
+project's KGP 
+version is typically 
+defined in the 
+plugins block of the 
+`settings.gradle` 
+file (D:\Astra\an
+droid/settings.gradle
+), by a plugin with 
+the id of org.jetbrai
+ns.kotlin.android. 
+If you don't see a 
+plugins block, your 
+project was likely 
+created with an 
+older template 
+version, in which 
+case it is most 
+likely defined in 
+the top-level 
+build.gradle file 
+(D:\Astra\android
+/build.gradle) by 
+the 
+ext.kotlin_version 
+property.
+
+'D:\disha' is not 
+recognized as an 
+internal or external 
+command,
+operable program or 
+batch file.
+
+Building native 
+assets for 
+package:objective_c 
+failed.
+Compilation of hook 
+returned with exit 
+code: 1.
+To reproduce run:
+D:\Astra\flutter\
+bin\cache\dart-sdk\bi
+n\dart compile 
+kernel 
+'--packages=D:\disha 
+app\.dart_tool\packag
+e_config.json' 
+'--output=D:\disha ap
+p\.dart_tool\hooks_ru
+nner\objective_c\6288
+d2fdf2\hook.dill' 
+'--depfile=D:\disha a
+pp\.dart_tool\hooks_r
+unner\objective_c\628
+8d2fdf2\hook.dill.d' 
+C:\Users\light\AppDat
+a\Local\Pub\Cache\hos
+ted\pub.dev\objective
+_c-9.3.0\hook\build.d
+art
+stderr:
+'D:\disha' is not 
+recognized as an 
+internal or external 
+command,
+operable program or 
+batch file.
+
+stdout:
+
+
+Target dart_build 
+failed: Error: 
+Building native 
+assets failed. See 
+the logs for more 
+details.
+
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:compileFlu
+tterBuildDebug'.
+> Process 'command 
+'D:\Astra\flutter
+\bin\flutter.bat'' 
+finished with 
+non-zero exit value 1
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 15s
+Running Gradle task 'assembleDebug'...                             16.1s
+Gradle task 
+assembleDebug failed 
+with exit code 1
+

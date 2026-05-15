@@ -1,0 +1,12 @@
+﻿[        ] [   +6 ms] Error: Couldn't resolve the package 'background_sms' in 'package:background_sms/background_sms.dart'.
+[ +203 ms] [ +224 ms] lib/sos_service.dart:2:8: Error: Not found: 'package:background_sms/background_sms.dart'
+[+5309 ms] [+5211 ms] lib/sos_service.dart:131:17: Error: The getter 'BackgroundSms' isn't defined for the type 'SosService'.
+[        ] [        ] lib/sos_service.dart:144:13: Error: The getter 'BackgroundSms' isn't defined for the type 'SosService'.
+[        ] [   +9 ms] lib/core/services/offline_queue_manager.dart:29:9: Error: The getter 'queue' isn't defined for the type 'OfflineQueueManager'.
+[        ] [        ] lib/core/services/offline_queue_manager.dart:33:40: Error: The getter 'queue' isn't defined for the type 'OfflineQueueManager'.
+[        ] [   +1 ms] lib/core/services/offline_queue_manager.dart:34:80: Error: The getter 'queue' isn't defined for the type 'OfflineQueueManager'.
+[ +974 ms] [ +976 ms] lib/core/utils/shared_queue_storage.dart:37:30: Error: Method not found: 'getQueueFilePath'.
+[        ] [        ] lib/core/utils/shared_queue_storage.dart:59:30: Error: Method not found: 'getQueueFilePath'.
+[        ] [        ] lib/core/utils/shared_queue_storage.dart:82:30: Error: Method not found: 'getQueueFilePath'.
+[        ] [        ] lib/core/utils/shared_queue_storage.dart:103:30: Error: Method not found: 'getQueueFilePath'.
+[        ] [   +2 ms] Target dart_build failed: Error: Building native assets failed. See the logs for more details.

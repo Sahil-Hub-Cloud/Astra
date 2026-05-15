@@ -1,0 +1,81 @@
+﻿> Task :gradle:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+
+> Configure project :app
+Warning: Flutter support for your project's Android Gradle Plugin version (Android Gradle Plugin version 8.5.2) will soon be dropped. Please upgrade your Android Gradle Plugin version to a version of at least Android Gradle Plugin version 8.6.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's AGP version is typically defined in the plugins block of the `settings.gradle` file (D:\Astra\android/settings.gradle), by a plugin with the id of com.android.application. 
+If you don't see a plugins block, your project was likely created with an older template version. In this case it is most likely defined in the top-level build.gradle file (D:\Astra\android/build.gradle) by the following line in the dependencies block of the buildscript: "classpath 'com.android.tools.build:gradle:<version>'".
+
+Warning: Flutter support for your project's Kotlin version (1.9.24) will soon be dropped. Please upgrade your Kotlin version to a version of at least 2.1.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's KGP version is typically defined in the plugins block of the `settings.gradle` file (D:\Astra\android/settings.gradle), by a plugin with the id of org.jetbrains.kotlin.android. 
+If you don't see a plugins block, your project was likely created with an older template version, in which case it is most likely defined in the top-level build.gradle file (D:\Astra\android/build.gradle) by the ext.kotlin_version property.
+
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+WARNING: [CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+[CXX5101] NDK folder 'C:\Users\light\AppData\Local\Android\sdk\ndk\26.1.10909125' specified does not contain 'platforms'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+The Android Gradle plugin supports only Kotlin Gradle plugin version 1.5.20 and higher.
+The following dependencies do not satisfy the required version:
+project ':sms_advanced' -> org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.50
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+5 actionable tasks: 1 executed, 4 up-to-date
+

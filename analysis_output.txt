@@ -1,0 +1,33 @@
+﻿Analyzing shared_queue_storage.dart...                          
+
+warning - The value of the local variable 'file' isn't used - lib\core\utils\shared_queue_storage.dart:44:13 - unused_local_variable
+   info - Don't invoke 'print' in production code - lib\core\utils\shared_queue_storage.dart:52:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\shared_queue_storage.dart:54:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\shared_queue_storage.dart:80:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\shared_queue_storage.dart:93:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\shared_queue_storage.dart:96:7 - avoid_print
+
+flutter.bat : 6 
+issues found. (ran 
+in 1.0s)
+At line:1 char:72
++ ...  $env:PATH; & 
+"D:\Astra\flutter
+\bin\flutter.bat" 
+analyze lib/core ...
++                 ~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (6 issue   
+ s found. (ran in    
+ 1.0s):String) [    
+], RemoteExcepti    
+on
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+

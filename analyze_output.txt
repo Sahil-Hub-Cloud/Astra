@@ -1,0 +1,874 @@
+﻿Analyzing lib...
+
+  error - astra_auth.dart:1:8 - Target of URI doesn't exist: 'package:supabase_flutter/supabase_flutter.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - astra_auth.dart:4:20 - Undefined name 'Supabase'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - astra_auth.dart:7:10 - The name 'AuthResponse' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'AuthResponse'. - non_type_as_type_argument
+  error - astra_auth.dart:11:24 - The name 'PhoneAuthSignInOptions' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - astra_auth.dart:13:20 - Undefined name 'OtpChannel'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - astra_auth.dart:23:10 - The name 'AuthResponse' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'AuthResponse'. - non_type_as_type_argument
+  error - astra_auth.dart:28:15 - Undefined name 'OtpType'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - astra_auth.dart:58:3 - Undefined class 'User'. Try changing the name to the name of an existing class, or creating a class with the name 'User'. - undefined_class
+  error - astra_backend.dart:1:8 - Target of URI doesn't exist: 'package:supabase_flutter/supabase_flutter.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - astra_backend.dart:2:8 - Target of URI doesn't exist: 'package:geolocator/geolocator.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - astra_backend.dart:12:20 - Undefined name 'Supabase'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - astra_backend.dart:20:36 - Undefined class 'Position'. Try changing the name to the name of an existing class, or creating a class with the name 'Position'. - undefined_class
+  error - astra_backend.dart:48:44 - Undefined class 'Position'. Try changing the name to the name of an existing class, or creating a class with the name 'Position'. - undefined_class
+  error - contacts_screen.dart:1:8 - Target of URI doesn't exist: 'package:flutter/material.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - contacts_screen.dart:2:8 - Target of URI doesn't exist: 'package:shared_preferences/shared_preferences.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - contacts_screen.dart:5:30 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - contacts_screen.dart:6:31 - No associated named super constructor parameter. Try changing the name to the name of an existing named super constructor parameter, or creating such named parameter. - super_formal_parameter_without_associated_named
+  error - contacts_screen.dart:9:3 - Undefined class 'State'. Try changing the name to the name of an existing class, or creating a class with the name 'State'. - undefined_class
+  error - contacts_screen.dart:12:36 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - contacts_screen.dart:14:9 - Undefined class 'TextEditingController'. Try changing the name to the name of an existing class, or creating a class with the name 'TextEditingController'. - undefined_class
+  error - contacts_screen.dart:14:45 - The method 'TextEditingController' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextEditingController'. - undefined_method
+  error - contacts_screen.dart:18:11 - The method 'initState' isn't defined in a superclass of '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'initState' in a superclass. - undefined_super_member
+  error - contacts_screen.dart:23:5 - The method 'setState' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - contacts_screen.dart:29:5 - The method 'setState' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - contacts_screen.dart:40:7 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:40:28 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:41:15 - The name 'SnackBar' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:42:20 - The method 'Text' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - contacts_screen.dart:43:28 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:54:7 - The method 'setState' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - contacts_screen.dart:58:7 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:58:28 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:59:15 - The name 'SnackBar' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:60:20 - The method 'Text' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - contacts_screen.dart:61:28 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:65:7 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:65:28 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:66:15 - The name 'SnackBar' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:67:20 - The method 'Text' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - contacts_screen.dart:68:28 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:80:5 - The method 'setState' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - contacts_screen.dart:88:11 - The method 'dispose' isn't defined in a superclass of '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'dispose' in a superclass. - undefined_super_member
+  error - contacts_screen.dart:92:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - contacts_screen.dart:92:16 - Undefined class 'BuildContext'. Try changing the name to the name of an existing class, or creating a class with the name 'BuildContext'. - undefined_class
+  error - contacts_screen.dart:93:12 - The method 'Scaffold' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Scaffold'. - undefined_method
+  error - contacts_screen.dart:94:30 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:95:15 - The method 'AppBar' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AppBar'. - undefined_method
+  error - contacts_screen.dart:96:22 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:98:18 - The method 'TextStyle' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - contacts_screen.dart:99:20 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:100:25 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:103:26 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:105:18 - The method 'IconButton' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'IconButton'. - undefined_method
+  error - contacts_screen.dart:106:23 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:106:28 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:106:53 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:107:28 - Undefined name 'Navigator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:110:13 - The method 'Column' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - contacts_screen.dart:113:11 - The method 'Container' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - contacts_screen.dart:114:28 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:115:27 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:116:25 - The method 'BoxDecoration' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - contacts_screen.dart:117:25 - The method 'LinearGradient' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'LinearGradient'. - undefined_method
+  error - contacts_screen.dart:119:19 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:120:19 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:122:24 - Undefined name 'Alignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:123:22 - Undefined name 'Alignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:125:29 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:126:23 - Undefined name 'Border'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:127:24 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:131:20 - The method 'Column' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - contacts_screen.dart:133:23 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:135:26 - The method 'TextStyle' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - contacts_screen.dart:137:33 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:138:28 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:141:23 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:142:17 - The method 'Row' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Row'. - undefined_method
+  error - contacts_screen.dart:144:21 - The method 'Expanded' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Expanded'. - undefined_method
+  error - contacts_screen.dart:145:30 - The method 'Container' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - contacts_screen.dart:146:37 - The method 'BoxDecoration' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - contacts_screen.dart:147:34 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:148:41 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:149:35 - Undefined name 'Border'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:150:36 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:153:32 - The method 'TextField' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextField'. - undefined_method
+  error - contacts_screen.dart:155:41 - Undefined name 'TextInputType'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:156:40 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:156:57 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:157:45 - The name 'InputDecoration' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:159:40 - The method 'TextStyle' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - contacts_screen.dart:159:57 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:160:37 - Undefined name 'InputBorder'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:161:45 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:162:41 - The method 'Icon' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - contacts_screen.dart:163:31 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:164:38 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:170:27 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:171:21 - The method 'Container' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - contacts_screen.dart:172:35 - The method 'BoxDecoration' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - contacts_screen.dart:173:41 - The name 'LinearGradient' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:174:36 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:174:55 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:176:39 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:178:30 - The method 'IconButton' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'IconButton'. - undefined_method
+  error - contacts_screen.dart:179:37 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:180:27 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:181:34 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:194:11 - The method 'Expanded' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Expanded'. - undefined_method
+  error - contacts_screen.dart:196:19 - The method 'Center' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Center'. - undefined_method
+  error - contacts_screen.dart:197:28 - The method 'Column' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - contacts_screen.dart:198:42 - Undefined name 'MainAxisAlignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:200:31 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:201:27 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:203:34 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:205:31 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:206:31 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:208:34 - The method 'TextStyle' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - contacts_screen.dart:210:36 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:211:41 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:214:31 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:215:25 - The method 'Text' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - contacts_screen.dart:217:34 - The method 'TextStyle' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - contacts_screen.dart:219:36 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:221:38 - Undefined name 'TextAlign'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:226:19 - Undefined name 'ListView'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:227:36 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:230:30 - The method 'Container' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - contacts_screen.dart:231:39 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:232:37 - The method 'BoxDecoration' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - contacts_screen.dart:233:37 - The method 'LinearGradient' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'LinearGradient'. - undefined_method
+  error - contacts_screen.dart:235:31 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:236:31 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:238:36 - Undefined name 'Alignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:239:34 - Undefined name 'Alignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:241:41 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:242:35 - Undefined name 'Border'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:243:36 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:247:32 - The method 'ListTile' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ListTile'. - undefined_method
+  error - contacts_screen.dart:248:36 - The method 'Container' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - contacts_screen.dart:251:47 - The name 'BoxDecoration' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:252:41 - The method 'LinearGradient' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'LinearGradient'. - undefined_method
+  error - contacts_screen.dart:253:42 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:253:61 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:255:38 - Undefined name 'BoxShape'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:257:42 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:258:31 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:259:38 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:262:34 - The method 'Text' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - contacts_screen.dart:264:42 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:265:38 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:266:43 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:270:37 - The method 'Text' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - contacts_screen.dart:272:36 - The method 'TextStyle' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - contacts_screen.dart:273:38 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:276:37 - The method 'IconButton' isn't defined for the type '_ContactsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'IconButton'. - undefined_method
+  error - contacts_screen.dart:277:41 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - contacts_screen.dart:278:31 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - contacts_screen.dart:279:38 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\emergency_hardware_trigger.dart:1:8 - Target of URI doesn't exist: 'package:flutter/foundation.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\emergency_hardware_trigger.dart:2:8 - Target of URI doesn't exist: 'package:flutter/services.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\emergency_hardware_trigger.dart:3:8 - Target of URI doesn't exist: 'package:permission_handler/permission_handler.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\emergency_hardware_trigger.dart:6:16 - Undefined class 'MethodChannel'. Try changing the name to the name of an existing class, or creating a class with the name 'MethodChannel'. - undefined_class
+  error - core\services\emergency_hardware_trigger.dart:6:41 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\services\emergency_hardware_trigger.dart:6:41 - The method 'MethodChannel' isn't defined for the type 'EmergencyHardwareTrigger'. Try correcting the name to the name of an existing method, or defining a method named 'MethodChannel'. - undefined_method
+  error - core\services\emergency_hardware_trigger.dart:28:40 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\emergency_hardware_trigger.dart:29:41 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\emergency_hardware_trigger.dart:31:33 - Undefined name 'PermissionStatus'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\emergency_hardware_trigger.dart:32:13 - Undefined name 'kDebugMode'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\emergency_hardware_trigger.dart:42:11 - Undefined name 'kDebugMode'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\emergency_hardware_trigger.dart:48:11 - Undefined name 'kDebugMode'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\emergency_hardware_trigger.dart:60:11 - Undefined name 'kDebugMode'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\emergency_hardware_trigger.dart:66:11 - Undefined name 'kDebugMode'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\emergency_hardware_trigger.dart:78:11 - Undefined name 'kDebugMode'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\offline_queue_manager.dart:3:8 - Target of URI doesn't exist: 'package:path_provider/path_provider.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\offline_queue_manager.dart:4:8 - Target of URI doesn't exist: 'package:sms_maintained/sms.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\offline_queue_manager.dart:5:8 - Target of URI doesn't exist: '../sos_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\offline_queue_manager.dart:6:8 - Target of URI doesn't exist: 'package:collection/collection.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\offline_queue_manager.dart:7:8 - Target of URI doesn't exist: 'package:shared_preferences/shared_preferences.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\offline_queue_manager.dart:8:8 - Target of URI doesn't exist: 'package:connectivity_plus/connectivity_plus.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\offline_queue_manager.dart:9:8 - Target of URI doesn't exist: 'package:flutter/services.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\offline_queue_manager.dart:48:13 - Undefined class 'MethodChannel'. Try changing the name to the name of an existing class, or creating a class with the name 'MethodChannel'. - undefined_class
+  error - core\services\offline_queue_manager.dart:48:38 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\services\offline_queue_manager.dart:48:38 - The method 'MethodChannel' isn't defined for the type 'OfflineQueueManager'. Try correcting the name to the name of an existing method, or defining a method named 'MethodChannel'. - undefined_method
+  error - core\services\offline_queue_manager.dart:59:38 - The method 'Connectivity' isn't defined for the type 'OfflineQueueManager'. Try correcting the name to the name of an existing method, or defining a method named 'Connectivity'. - undefined_method
+  error - core\services\offline_queue_manager.dart:60:31 - Undefined name 'ConnectivityResult'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\offline_queue_manager.dart:90:36 - The method 'whereIndexed' isn't defined for the type 'List'. Try correcting the name to the name of an existing method, or defining a method named 'whereIndexed'. - undefined_method
+  error - core\services\offline_queue_manager.dart:118:26 - The method 'SosService' isn't defined for the type 'OfflineQueueManager'. Try correcting the name to the name of an existing method, or defining a method named 'SosService'. - undefined_method
+  error - core\services\permission_service.dart:1:8 - Target of URI doesn't exist: 'package:permission_handler/permission_handler.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\permission_service.dart:2:8 - Target of URI doesn't exist: 'package:permission_handler/permission_handler.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\permission_service.dart:6:26 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:7:22 - Undefined name 'PermissionStatus'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:11:26 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:12:22 - Undefined name 'PermissionStatus'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:16:26 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:17:22 - Undefined name 'PermissionStatus'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:21:35 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:22:30 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:24:31 - Undefined name 'PermissionStatus'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:25:26 - Undefined name 'PermissionStatus'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:29:26 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:30:22 - Undefined name 'PermissionStatus'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:34:26 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:35:22 - Undefined name 'PermissionStatus'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:40:25 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:41:20 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:42:22 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:43:26 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:44:26 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:45:27 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\permission_service.dart:46:29 - Undefined name 'Permission'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\police_integration_service.dart:1:8 - Target of URI doesn't exist: 'package:supabase_flutter/supabase_flutter.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\police_integration_service.dart:2:8 - Target of URI doesn't exist: 'package:geolocator/geolocator.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\services\police_integration_service.dart:5:20 - Undefined name 'Supabase'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\services\police_integration_service.dart:10:14 - Undefined class 'Position'. Try changing the name to the name of an existing class, or creating a class with the name 'Position'. - undefined_class
+  error - core\services\police_integration_service.dart:103:14 - Undefined class 'Position'. Try changing the name to the name of an existing class, or creating a class with the name 'Position'. - undefined_class
+  error - core\theme\app_theme.dart:1:8 - Target of URI doesn't exist: 'package:flutter/material.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\theme\app_theme.dart:5:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:5:37 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:5:37 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:6:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:6:39 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:6:39 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:7:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:7:39 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:7:39 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:8:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:8:40 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:8:40 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:9:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:9:34 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:9:34 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:10:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:10:43 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:10:43 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:11:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:11:37 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:11:37 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:12:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:12:35 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:12:35 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:13:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:13:35 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:13:35 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:14:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:14:34 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:14:34 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:15:16 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - core\theme\app_theme.dart:15:39 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\theme\app_theme.dart:15:39 - The method 'Color' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - core\theme\app_theme.dart:39:10 - Undefined class 'TextStyle'. Try changing the name to the name of an existing class, or creating a class with the name 'TextStyle'. - undefined_class
+  error - core\theme\app_theme.dart:39:47 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:42:21 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:46:10 - Undefined class 'TextStyle'. Try changing the name to the name of an existing class, or creating a class with the name 'TextStyle'. - undefined_class
+  error - core\theme\app_theme.dart:46:48 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:49:21 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:53:10 - Undefined class 'TextStyle'. Try changing the name to the name of an existing class, or creating a class with the name 'TextStyle'. - undefined_class
+  error - core\theme\app_theme.dart:53:47 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:56:21 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:60:10 - Undefined class 'TextStyle'. Try changing the name to the name of an existing class, or creating a class with the name 'TextStyle'. - undefined_class
+  error - core\theme\app_theme.dart:60:43 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:63:21 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:67:10 - Undefined class 'TextStyle'. Try changing the name to the name of an existing class, or creating a class with the name 'TextStyle'. - undefined_class
+  error - core\theme\app_theme.dart:67:44 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:70:21 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:74:10 - Undefined class 'TextStyle'. Try changing the name to the name of an existing class, or creating a class with the name 'TextStyle'. - undefined_class
+  error - core\theme\app_theme.dart:74:43 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:77:21 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:81:10 - Undefined class 'TextStyle'. Try changing the name to the name of an existing class, or creating a class with the name 'TextStyle'. - undefined_class
+  error - core\theme\app_theme.dart:81:44 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:84:21 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:88:10 - Undefined class 'TextStyle'. Try changing the name to the name of an existing class, or creating a class with the name 'TextStyle'. - undefined_class
+  error - core\theme\app_theme.dart:88:45 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:91:21 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:96:16 - Undefined class 'ThemeData'. Try changing the name to the name of an existing class, or creating a class with the name 'ThemeData'. - undefined_class
+  error - core\theme\app_theme.dart:96:39 - The method 'ThemeData' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'ThemeData'. - undefined_method
+  error - core\theme\app_theme.dart:98:17 - Undefined name 'Brightness'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:101:18 - Undefined name 'ColorScheme'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:115:16 - The method 'TextTheme' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'TextTheme'. - undefined_method
+  error - core\theme\app_theme.dart:127:26 - The method 'ElevatedButtonThemeData' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'ElevatedButtonThemeData'. - undefined_method
+  error - core\theme\app_theme.dart:128:14 - Undefined name 'ElevatedButton'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:132:24 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:136:16 - The method 'RoundedRectangleBorder' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'RoundedRectangleBorder'. - undefined_method
+  error - core\theme\app_theme.dart:137:25 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:144:16 - The method 'CardTheme' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'CardTheme'. - undefined_method
+  error - core\theme\app_theme.dart:147:14 - The method 'RoundedRectangleBorder' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'RoundedRectangleBorder'. - undefined_method
+  error - core\theme\app_theme.dart:148:23 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:150:21 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:154:24 - The name 'AppBarTheme' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:163:31 - The method 'BottomNavigationBarThemeData' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'BottomNavigationBarThemeData'. - undefined_method
+  error - core\theme\app_theme.dart:168:13 - Undefined name 'BottomNavigationBarType'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:173:16 - Undefined class 'ThemeData'. Try changing the name to the name of an existing class, or creating a class with the name 'ThemeData'. - undefined_class
+  error - core\theme\app_theme.dart:173:38 - The method 'ThemeData' isn't defined for the type 'AppTheme'. Try correcting the name to the name of an existing method, or defining a method named 'ThemeData'. - undefined_method
+  error - core\theme\app_theme.dart:175:17 - Undefined name 'Brightness'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:177:36 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:178:18 - Undefined name 'ColorScheme'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - core\theme\app_theme.dart:182:22 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\theme\app_theme.dart:183:25 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - core\utils\secure_storage.dart:2:8 - Target of URI doesn't exist: 'package:flutter_secure_storage/flutter_secure_storage.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\utils\secure_storage.dart:5:27 - Const variables must be initialized with a constant value. Try changing the initializer to be a constant expression. - const_initialized_with_non_constant_value
+  error - core\utils\secure_storage.dart:5:27 - The method 'FlutterSecureStorage' isn't defined for the type 'SecureStorage'. Try correcting the name to the name of an existing method, or defining a method named 'FlutterSecureStorage'. - undefined_method
+  error - core\utils\shared_queue_storage.dart:3:8 - Target of URI doesn't exist: 'package:path_provider/path_provider.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - core\utils\shared_queue_storage.dart:10:29 - The method 'getApplicationDocumentsDirectory' isn't defined for the type 'SharedQueueStorage'. Try correcting the name to the name of an existing method, or defining a method named 'getApplicationDocumentsDirectory'. - undefined_method
+  error - core\utils\shared_queue_storage.dart:23:30 - The method 'getApplicationDocumentsDirectory' isn't defined for the type 'SharedQueueStorage'. Try correcting the name to the name of an existing method, or defining a method named 'getApplicationDocumentsDirectory'. - undefined_method
+  error - history_screen.dart:1:8 - Target of URI doesn't exist: 'package:flutter/material.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - history_screen.dart:2:8 - Target of URI doesn't exist: 'package:supabase_flutter/supabase_flutter.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - history_screen.dart:5:29 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - history_screen.dart:6:30 - No associated named super constructor parameter. Try changing the name to the name of an existing named super constructor parameter, or creating such named parameter. - super_formal_parameter_without_associated_named
+  error - history_screen.dart:9:3 - Undefined class 'State'. Try changing the name to the name of an existing class, or creating a class with the name 'State'. - undefined_class
+  error - history_screen.dart:12:35 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - history_screen.dart:18:11 - The method 'initState' isn't defined in a superclass of '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'initState' in a superclass. - undefined_super_member
+  error - history_screen.dart:23:5 - The method 'setState' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - history_screen.dart:27:9 - The method 'setState' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - history_screen.dart:37:11 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:38:9 - The method 'setState' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - history_screen.dart:46:11 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:46:20 - The method 'setState' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - history_screen.dart:51:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - history_screen.dart:51:16 - Undefined class 'BuildContext'. Try changing the name to the name of an existing class, or creating a class with the name 'BuildContext'. - undefined_class
+  error - history_screen.dart:52:12 - The method 'Scaffold' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Scaffold'. - undefined_method
+  error - history_screen.dart:53:15 - The method 'AppBar' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AppBar'. - undefined_method
+  error - history_screen.dart:54:22 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:55:32 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:56:26 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:59:19 - The name 'Center' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:59:33 - The method 'CircularProgressIndicator' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'CircularProgressIndicator'. - undefined_method
+  error - history_screen.dart:61:17 - The method 'Center' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Center'. - undefined_method
+  error - history_screen.dart:62:26 - The method 'Column' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - history_screen.dart:63:40 - Undefined name 'MainAxisAlignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:65:23 - The method 'Icon' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - history_screen.dart:65:28 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:65:60 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:66:29 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:67:23 - The method 'Text' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - history_screen.dart:69:32 - The method 'TextStyle' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - history_screen.dart:70:50 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:72:29 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:73:23 - The method 'Text' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - history_screen.dart:75:32 - The method 'TextStyle' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - history_screen.dart:75:49 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:80:17 - The method 'RefreshIndicator' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'RefreshIndicator'. - undefined_method
+  error - history_screen.dart:82:26 - Undefined name 'ListView'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:86:30 - The method 'Card' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Card'. - undefined_method
+  error - history_screen.dart:87:39 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:88:32 - The method 'ListTile' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ListTile'. - undefined_method
+  error - history_screen.dart:89:49 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:90:36 - The method 'Container' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - history_screen.dart:93:41 - The method 'BoxDecoration' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - history_screen.dart:96:38 - Undefined name 'BoxShape'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:98:42 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:98:47 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:99:40 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:101:34 - The method 'Text' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - history_screen.dart:104:42 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:105:45 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:107:37 - The method 'Column' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - history_screen.dart:109:33 - Undefined name 'CrossAxisAlignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:111:31 - The method 'Text' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - history_screen.dart:113:37 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:114:31 - The method 'Text' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - history_screen.dart:116:40 - The method 'TextStyle' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - history_screen.dart:118:44 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:122:37 - The method 'Text' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - history_screen.dart:126:36 - The method 'TextStyle' isn't defined for the type '_HistoryScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - history_screen.dart:129:43 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - history_screen.dart:140:3 - Undefined class 'Color'. Try changing the name to the name of an existing class, or creating a class with the name 'Color'. - undefined_class
+  error - history_screen.dart:143:22 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:145:22 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:147:22 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - history_screen.dart:149:22 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:1:8 - Target of URI doesn't exist: 'package:flutter/material.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - login_screen.dart:2:8 - Target of URI doesn't exist: 'package:supabase_flutter/supabase_flutter.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - login_screen.dart:5:27 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - login_screen.dart:6:28 - No associated named super constructor parameter. Try changing the name to the name of an existing named super constructor parameter, or creating such named parameter. - super_formal_parameter_without_associated_named
+  error - login_screen.dart:9:3 - Undefined class 'State'. Try changing the name to the name of an existing class, or creating a class with the name 'State'. - undefined_class
+  error - login_screen.dart:12:33 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - login_screen.dart:13:20 - The method 'GlobalKey' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'GlobalKey'. - undefined_method
+  error - login_screen.dart:13:30 - The name 'FormState' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'FormState'. - non_type_as_type_argument
+  error - login_screen.dart:14:28 - The method 'TextEditingController' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextEditingController'. - undefined_method
+  error - login_screen.dart:15:26 - The method 'TextEditingController' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextEditingController'. - undefined_method
+  error - login_screen.dart:23:11 - The method 'dispose' isn't defined in a superclass of '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'dispose' in a superclass. - undefined_super_member
+  error - login_screen.dart:29:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - login_screen.dart:29:16 - Undefined class 'BuildContext'. Try changing the name to the name of an existing class, or creating a class with the name 'BuildContext'. - undefined_class
+  error - login_screen.dart:30:12 - The method 'Scaffold' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Scaffold'. - undefined_method
+  error - login_screen.dart:31:30 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:32:13 - The method 'SafeArea' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SafeArea'. - undefined_method
+  error - login_screen.dart:33:16 - The method 'SingleChildScrollView' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SingleChildScrollView'. - undefined_method
+  error - login_screen.dart:34:26 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:35:18 - The method 'Form' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Form'. - undefined_method
+  error - login_screen.dart:37:20 - The method 'Column' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - login_screen.dart:38:35 - Undefined name 'CrossAxisAlignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:40:23 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:42:23 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:42:28 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:42:49 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:43:23 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:44:23 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:46:26 - The method 'TextStyle' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - login_screen.dart:48:33 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:49:28 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:52:30 - Undefined name 'TextAlign'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:54:17 - The method 'Text' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - login_screen.dart:56:26 - The method 'TextStyle' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - login_screen.dart:58:28 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:60:30 - Undefined name 'TextAlign'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:62:23 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:65:17 - The method 'TextFormField' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextFormField'. - undefined_method
+  error - login_screen.dart:67:33 - Undefined name 'TextInputType'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:68:32 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:68:49 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:69:31 - The method 'InputDecoration' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'InputDecoration'. - undefined_method
+  error - login_screen.dart:71:33 - The method 'TextStyle' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - login_screen.dart:71:50 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:73:32 - The method 'TextStyle' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - login_screen.dart:73:49 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:75:25 - The method 'Icon' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - login_screen.dart:75:30 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:75:50 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:76:36 - The method 'OutlineInputBorder' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'OutlineInputBorder'. - undefined_method
+  error - login_screen.dart:77:35 - The method 'BorderSide' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BorderSide'. - undefined_method
+  error - login_screen.dart:78:34 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:79:37 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:81:36 - The method 'OutlineInputBorder' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'OutlineInputBorder'. - undefined_method
+  error - login_screen.dart:82:41 - The name 'BorderSide' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:82:59 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:83:37 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:85:34 - The method 'OutlineInputBorder' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'OutlineInputBorder'. - undefined_method
+  error - login_screen.dart:86:41 - The name 'BorderSide' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:86:59 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:87:37 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:89:41 - The method 'OutlineInputBorder' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'OutlineInputBorder'. - undefined_method
+  error - login_screen.dart:90:41 - The name 'BorderSide' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:90:59 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:91:37 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:94:32 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:108:23 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:112:19 - The method 'TextFormField' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextFormField'. - undefined_method
+  error - login_screen.dart:114:35 - Undefined name 'TextInputType'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:115:34 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:115:51 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:116:33 - The method 'InputDecoration' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'InputDecoration'. - undefined_method
+  error - login_screen.dart:119:27 - The method 'TextStyle' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - login_screen.dart:119:44 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:122:27 - The method 'TextStyle' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - login_screen.dart:122:44 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:123:35 - The method 'Icon' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - login_screen.dart:123:40 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:124:34 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:125:38 - The method 'OutlineInputBorder' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'OutlineInputBorder'. - undefined_method
+  error - login_screen.dart:126:37 - The method 'BorderSide' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BorderSide'. - undefined_method
+  error - login_screen.dart:127:36 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:128:39 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:130:38 - The method 'OutlineInputBorder' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'OutlineInputBorder'. - undefined_method
+  error - login_screen.dart:131:43 - The name 'BorderSide' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:131:61 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:132:39 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:135:34 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:146:25 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:150:17 - The method 'ElevatedButton' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ElevatedButton'. - undefined_method
+  error - login_screen.dart:152:26 - Undefined name 'ElevatedButton'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:153:38 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:154:38 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:155:36 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:156:28 - The method 'RoundedRectangleBorder' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'RoundedRectangleBorder'. - undefined_method
+  error - login_screen.dart:157:37 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:161:31 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:164:34 - The method 'CircularProgressIndicator' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'CircularProgressIndicator'. - undefined_method
+  error - login_screen.dart:165:36 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:169:25 - The method 'Text' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - login_screen.dart:173:40 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:178:25 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - login_screen.dart:179:19 - The method 'TextButton' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextButton'. - undefined_method
+  error - login_screen.dart:181:28 - The method 'Text' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - login_screen.dart:183:30 - The method 'TextStyle' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - login_screen.dart:183:47 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:200:5 - The method 'setState' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - login_screen.dart:208:11 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:209:9 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:209:30 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:210:11 - The method 'SnackBar' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SnackBar'. - undefined_method
+  error - login_screen.dart:210:29 - The method 'Text' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - login_screen.dart:210:65 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:214:11 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:214:20 - The method 'setState' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - login_screen.dart:222:5 - The method 'setState' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - login_screen.dart:224:9 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:225:7 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:225:28 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:226:9 - The method 'SnackBar' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SnackBar'. - undefined_method
+  error - login_screen.dart:226:27 - The method 'Text' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - login_screen.dart:235:13 - Undefined name 'OtpType'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:240:9 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:240:20 - Undefined name 'Navigator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:240:33 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:241:7 - Undefined name 'Navigator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:241:20 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:246:5 - The method 'setState' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - login_screen.dart:250:11 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:251:9 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:251:30 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:252:11 - The method 'SnackBar' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SnackBar'. - undefined_method
+  error - login_screen.dart:252:29 - The method 'Text' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - login_screen.dart:256:11 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - login_screen.dart:256:20 - The method 'setState' isn't defined for the type '_LoginScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - main.dart:1:8 - Target of URI doesn't exist: 'package:flutter/material.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - main.dart:2:8 - Target of URI doesn't exist: 'package:supabase_flutter/supabase_flutter.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - main.dart:3:8 - Target of URI doesn't exist: 'package:shared_preferences/shared_preferences.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - main.dart:4:8 - Target of URI doesn't exist: 'package:geolocator/geolocator.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - main.dart:5:8 - Target of URI doesn't exist: 'package:connectivity_plus/connectivity_plus.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - main.dart:6:8 - Target of URI doesn't exist: 'package:permission_handler/permission_handler.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - main.dart:22:12 - Undefined class 'SupabaseClient'. Try changing the name to the name of an existing class, or creating a class with the name 'SupabaseClient'. - undefined_class
+  error - main.dart:25:3 - Undefined name 'WidgetsFlutterBinding'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:31:5 - The function 'runApp' isn't defined. Try importing the library that defines 'runApp', correcting the name to the name of an existing function, or defining a function named 'runApp'. - undefined_function
+  error - main.dart:31:12 - The function 'MaterialApp' isn't defined. Try importing the library that defines 'MaterialApp', correcting the name to the name of an existing function, or defining a function named 'MaterialApp'. - undefined_function
+  error - main.dart:32:13 - The function 'Scaffold' isn't defined. Try importing the library that defines 'Scaffold', correcting the name to the name of an existing function, or defining a function named 'Scaffold'. - undefined_function
+  error - main.dart:33:15 - The function 'Center' isn't defined. Try importing the library that defines 'Center', correcting the name to the name of an existing function, or defining a function named 'Center'. - undefined_function
+  error - main.dart:34:18 - The function 'Text' isn't defined. Try importing the library that defines 'Text', correcting the name to the name of an existing function, or defining a function named 'Text'. - undefined_function
+  error - main.dart:39:24 - Undefined name 'TextAlign'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:47:9 - Undefined name 'Supabase'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:48:14 - Undefined name 'Supabase'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:50:3 - The function 'runApp' isn't defined. Try importing the library that defines 'runApp', correcting the name to the name of an existing function, or defining a function named 'runApp'. - undefined_function
+  error - main.dart:56:33 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - main.dart:57:34 - No associated named super constructor parameter. Try changing the name to the name of an existing named super constructor parameter, or creating such named parameter. - super_formal_parameter_without_associated_named
+  error - main.dart:60:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:60:16 - Undefined class 'BuildContext'. Try changing the name to the name of an existing class, or creating a class with the name 'BuildContext'. - undefined_class
+  error - main.dart:61:12 - The method 'MaterialApp' isn't defined for the type 'AstraEmergencyApp'. Try correcting the name to the name of an existing method, or defining a method named 'MaterialApp'. - undefined_method
+  error - main.dart:64:14 - The method 'ThemeData' isn't defined for the type 'AstraEmergencyApp'. Try correcting the name to the name of an existing method, or defining a method named 'ThemeData'. - undefined_method
+  error - main.dart:65:24 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:66:40 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:76:27 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - main.dart:77:28 - No associated named super constructor parameter. Try changing the name to the name of an existing named super constructor parameter, or creating such named parameter. - super_formal_parameter_without_associated_named
+  error - main.dart:80:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:80:16 - Undefined class 'BuildContext'. Try changing the name to the name of an existing class, or creating a class with the name 'BuildContext'. - undefined_class
+  error - main.dart:81:12 - The method 'StreamBuilder' isn't defined for the type 'AuthWrapper'. Try correcting the name to the name of an existing method, or defining a method named 'StreamBuilder'. - undefined_method
+  error - main.dart:81:26 - The name 'AuthState' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'AuthState'. - non_type_as_type_argument
+  error - main.dart:84:41 - Undefined name 'ConnectionState'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:85:24 - The name 'Scaffold' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:86:19 - The method 'Center' isn't defined for the type 'AuthWrapper'. Try correcting the name to the name of an existing method, or defining a method named 'Center'. - undefined_method
+  error - main.dart:86:33 - The method 'CircularProgressIndicator' isn't defined for the type 'AuthWrapper'. Try correcting the name to the name of an existing method, or defining a method named 'CircularProgressIndicator'. - undefined_method
+  error - main.dart:104:26 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - main.dart:105:27 - No associated named super constructor parameter. Try changing the name to the name of an existing named super constructor parameter, or creating such named parameter. - super_formal_parameter_without_associated_named
+  error - main.dart:108:3 - Undefined class 'State'. Try changing the name to the name of an existing class, or creating a class with the name 'State'. - undefined_class
+  error - main.dart:111:32 - Mixin can only be applied to class. - mixin_with_non_class_superclass
+  error - main.dart:112:10 - Classes can only mix in mixins and classes. - mixin_of_non_class
+  error - main.dart:112:36 - Classes can only mix in mixins and classes. - mixin_of_non_class
+  error - main.dart:114:8 - Undefined class 'AnimationController'. Try changing the name to the name of an existing class, or creating a class with the name 'AnimationController'. - undefined_class
+  error - main.dart:115:8 - Undefined class 'AnimationController'. Try changing the name to the name of an existing class, or creating a class with the name 'AnimationController'. - undefined_class
+  error - main.dart:116:8 - Undefined class 'Animation'. Try changing the name to the name of an existing class, or creating a class with the name 'Animation'. - undefined_class
+  error - main.dart:117:8 - Undefined class 'Animation'. Try changing the name to the name of an existing class, or creating a class with the name 'Animation'. - undefined_class
+  error - main.dart:132:22 - The name 'ConnectivityResult' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'ConnectivityResult'. - non_type_as_type_argument
+  error - main.dart:140:11 - The method 'initState' isn't defined in a superclass of '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'initState' in a superclass. - undefined_super_member
+  error - main.dart:141:5 - Undefined name 'WidgetsBinding'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:155:5 - Undefined name 'WidgetsBinding'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:162:11 - The method 'dispose' isn't defined in a superclass of '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'dispose' in a superclass. - undefined_super_member
+  error - main.dart:168:24 - The method 'AnimationController' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AnimationController'. - undefined_method
+  error - main.dart:173:23 - The method 'Tween' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Tween'. - undefined_method
+  error - main.dart:174:7 - The method 'CurvedAnimation' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'CurvedAnimation'. - undefined_method
+  error - main.dart:174:56 - Undefined name 'Curves'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:177:24 - The method 'AnimationController' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AnimationController'. - undefined_method
+  error - main.dart:182:23 - The method 'Tween' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Tween'. - undefined_method
+  error - main.dart:201:13 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:210:5 - The method 'Connectivity' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Connectivity'. - undefined_method
+  error - main.dart:211:12 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:212:7 - The method 'setState' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - main.dart:214:23 - Undefined name 'ConnectivityResult'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:220:5 - Undefined name 'Geolocator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:221:12 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:222:7 - The method 'setState' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - main.dart:232:9 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:233:7 - The method 'setState' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - main.dart:240:33 - The method 'Connectivity' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Connectivity'. - undefined_method
+  error - main.dart:241:8 - Undefined class 'ConnectivityResult'. Try changing the name to the name of an existing class, or creating a class with the name 'ConnectivityResult'. - undefined_class
+  error - main.dart:242:23 - Undefined name 'ConnectivityResult'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:246:13 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:247:11 - The method 'setState' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - main.dart:249:27 - Undefined name 'ConnectivityResult'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:259:27 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:260:7 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:260:28 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:261:15 - The name 'SnackBar' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:262:20 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:263:28 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:277:13 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:284:30 - Undefined name 'Geolocator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:285:26 - Undefined name 'LocationAccuracy'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:291:35 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:292:9 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:292:30 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:293:11 - The method 'SnackBar' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SnackBar'. - undefined_method
+  error - main.dart:294:28 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:295:30 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:296:21 - The method 'SnackBarAction' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SnackBarAction'. - undefined_method
+  error - main.dart:309:5 - The method 'setState' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - main.dart:317:32 - Undefined name 'Geolocator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:318:28 - Undefined name 'LocationAccuracy'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:325:11 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:326:9 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:326:30 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:327:17 - The name 'SnackBar' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:328:22 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:329:30 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:334:11 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:335:9 - Undefined name 'ScaffoldMessenger'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:335:30 - Undefined name 'context'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:336:11 - The method 'SnackBar' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SnackBar'. - undefined_method
+  error - main.dart:337:22 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:338:30 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:343:7 - The method 'setState' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'setState'. - undefined_method
+  error - main.dart:352:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:352:16 - Undefined class 'BuildContext'. Try changing the name to the name of an existing class, or creating a class with the name 'BuildContext'. - undefined_class
+  error - main.dart:353:12 - The method 'Scaffold' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Scaffold'. - undefined_method
+  error - main.dart:354:30 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:355:13 - The method 'Stack' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Stack'. - undefined_method
+  error - main.dart:358:11 - The method 'SafeArea' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SafeArea'. - undefined_method
+  error - main.dart:359:20 - The method 'Padding' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Padding'. - undefined_method
+  error - main.dart:360:30 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:361:22 - The method 'Column' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - main.dart:365:19 - The method 'Expanded' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Expanded'. - undefined_method
+  error - main.dart:378:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:379:12 - The method 'AnimatedBuilder' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AnimatedBuilder'. - undefined_method
+  error - main.dart:382:16 - The method 'Container' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - main.dart:383:23 - The method 'BoxDecoration' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - main.dart:384:23 - The method 'RadialGradient' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'RadialGradient'. - undefined_method
+  error - main.dart:386:23 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:387:23 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:388:23 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:390:23 - Undefined name 'Alignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:394:18 - The method 'Stack' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Stack'. - undefined_method
+  error - main.dart:398:22 - The method 'Positioned' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Positioned'. - undefined_method
+  error - main.dart:401:24 - The method 'Container' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - main.dart:404:31 - The method 'BoxDecoration' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - main.dart:405:28 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:406:28 - Undefined name 'BoxShape'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:419:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:419:23 - Undefined class 'BuildContext'. Try changing the name to the name of an existing class, or creating a class with the name 'BuildContext'. - undefined_class
+  error - main.dart:420:12 - The method 'Row' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Row'. - undefined_method
+  error - main.dart:421:26 - Undefined name 'MainAxisAlignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:423:9 - The method 'Column' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - main.dart:424:31 - Undefined name 'CrossAxisAlignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:426:19 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:428:22 - The method 'TextStyle' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - main.dart:430:29 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:431:24 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:435:13 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:437:22 - The method 'TextStyle' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - main.dart:439:24 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:444:9 - The method 'Row' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Row'. - undefined_method
+  error - main.dart:446:13 - The method 'IconButton' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'IconButton'. - undefined_method
+  error - main.dart:447:21 - The method 'Icon' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - main.dart:447:26 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:448:26 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:449:32 - Undefined name 'Navigator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:450:19 - The method 'MaterialPageRoute' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'MaterialPageRoute'. - undefined_method
+  error - main.dart:452:19 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:453:13 - The method 'IconButton' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'IconButton'. - undefined_method
+  error - main.dart:454:21 - The method 'Icon' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - main.dart:454:26 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:455:26 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:456:32 - Undefined name 'Navigator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:457:19 - The method 'MaterialPageRoute' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'MaterialPageRoute'. - undefined_method
+  error - main.dart:459:19 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:460:13 - The method 'IconButton' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'IconButton'. - undefined_method
+  error - main.dart:461:21 - The method 'Icon' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - main.dart:461:26 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:462:26 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:464:23 - Undefined name 'Navigator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:466:19 - The method 'MaterialPageRoute' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'MaterialPageRoute'. - undefined_method
+  error - main.dart:479:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:480:12 - The method 'Container' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - main.dart:481:21 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:482:22 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:483:19 - The method 'BoxDecoration' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - main.dart:484:19 - The method 'LinearGradient' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'LinearGradient'. - undefined_method
+  error - main.dart:486:13 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:487:13 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:489:18 - Undefined name 'Alignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:490:16 - Undefined name 'Alignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:492:23 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:493:17 - Undefined name 'Border'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:494:18 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:498:14 - The method 'Row' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Row'. - undefined_method
+  error - main.dart:499:28 - Undefined name 'MainAxisAlignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:510:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:511:12 - The method 'Column' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - main.dart:513:9 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:513:33 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:514:15 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:515:9 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:517:24 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:518:20 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:519:25 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:523:9 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:525:18 - The method 'TextStyle' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - main.dart:526:20 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:536:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:537:12 - The method 'Center' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Center'. - undefined_method
+  error - main.dart:538:14 - The method 'Column' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - main.dart:539:28 - Undefined name 'MainAxisAlignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:541:11 - The method 'GestureDetector' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'GestureDetector'. - undefined_method
+  error - main.dart:543:20 - The method 'AnimatedBuilder' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AnimatedBuilder'. - undefined_method
+  error - main.dart:546:24 - The method 'Container' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - main.dart:549:31 - The method 'BoxDecoration' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - main.dart:550:28 - Undefined name 'BoxShape'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:551:31 - The method 'RadialGradient' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'RadialGradient'. - undefined_method
+  error - main.dart:554:31 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:555:31 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:558:31 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:559:31 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:561:31 - Undefined name 'Alignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:565:23 - The method 'BoxShadow' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxShadow'. - undefined_method
+  error - main.dart:567:31 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:568:31 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:574:26 - The method 'Center' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Center'. - undefined_method
+  error - main.dart:576:33 - The name 'CircularProgressIndicator' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:578:33 - The method 'AlwaysStoppedAnimation' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AlwaysStoppedAnimation'. - undefined_method
+  error - main.dart:578:56 - The name 'Color' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'Color'. - non_type_as_type_argument
+  error - main.dart:578:63 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:581:33 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:583:36 - The method 'TextStyle' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - main.dart:584:38 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:586:43 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:595:17 - The name 'SizedBox' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:596:11 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:600:20 - The method 'TextStyle' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - main.dart:601:22 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:603:27 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:605:24 - Undefined name 'TextAlign'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:614:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:615:12 - The method 'Container' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Container'. - undefined_method
+  error - main.dart:616:21 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:617:22 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:618:19 - The method 'BoxDecoration' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'BoxDecoration'. - undefined_method
+  error - main.dart:619:16 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:620:23 - Undefined name 'BorderRadius'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:621:17 - Undefined name 'Border'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:622:18 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:626:14 - The method 'Row' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Row'. - undefined_method
+  error - main.dart:627:28 - Undefined name 'MainAxisAlignment'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:638:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - main.dart:639:12 - The method 'Column' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Column'. - undefined_method
+  error - main.dart:641:9 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:643:24 - The name 'TextStyle' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - main.dart:644:20 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:645:25 - Undefined name 'FontWeight'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:649:9 - The method 'Text' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - main.dart:651:18 - The method 'TextStyle' isn't defined for the type '_HomeScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'TextStyle'. - undefined_method
+  error - main.dart:652:20 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - main.dart:655:22 - Undefined name 'TextAlign'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:1:8 - Target of URI doesn't exist: 'package:flutter/material.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - settings_screen.dart:5:30 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - settings_screen.dart:6:31 - No associated named super constructor parameter. Try changing the name to the name of an existing named super constructor parameter, or creating such named parameter. - super_formal_parameter_without_associated_named
+  error - settings_screen.dart:9:3 - Undefined class 'State'. Try changing the name to the name of an existing class, or creating a class with the name 'State'. - undefined_class
+  error - settings_screen.dart:12:36 - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause. - extends_non_class
+  error - settings_screen.dart:14:3 - Undefined class 'Widget'. Try changing the name to the name of an existing class, or creating a class with the name 'Widget'. - undefined_class
+  error - settings_screen.dart:14:16 - Undefined class 'BuildContext'. Try changing the name to the name of an existing class, or creating a class with the name 'BuildContext'. - undefined_class
+  error - settings_screen.dart:15:12 - The method 'Scaffold' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Scaffold'. - undefined_method
+  error - settings_screen.dart:16:15 - The method 'AppBar' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AppBar'. - undefined_method
+  error - settings_screen.dart:17:22 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:18:32 - The name 'Color' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:19:26 - Undefined name 'Colors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:21:13 - The method 'ListView' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ListView'. - undefined_method
+  error - settings_screen.dart:24:11 - The method 'Card' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Card'. - undefined_method
+  error - settings_screen.dart:25:27 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:26:20 - The method 'ExpansionTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ExpansionTile'. - undefined_method
+  error - settings_screen.dart:27:28 - The name 'Row' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:29:19 - The method 'Icon' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - settings_screen.dart:29:24 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:29:53 - The method 'Color' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - settings_screen.dart:30:19 - The method 'SizedBox' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SizedBox'. - undefined_method
+  error - settings_screen.dart:31:19 - The method 'Text' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - settings_screen.dart:35:17 - The method 'ListTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ListTile'. - undefined_method
+  error - settings_screen.dart:36:34 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:36:39 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:37:32 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:40:17 - The method 'ListTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ListTile'. - undefined_method
+  error - settings_screen.dart:41:34 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:41:39 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:42:32 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:45:25 - Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:46:23 - Undefined name 'Navigator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:56:11 - The method 'Card' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Card'. - undefined_method
+  error - settings_screen.dart:57:27 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:58:20 - The method 'ExpansionTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ExpansionTile'. - undefined_method
+  error - settings_screen.dart:59:28 - The name 'Row' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:61:19 - The method 'Icon' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - settings_screen.dart:61:24 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:61:47 - The method 'Color' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - settings_screen.dart:62:19 - The method 'SizedBox' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SizedBox'. - undefined_method
+  error - settings_screen.dart:63:19 - The method 'Text' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - settings_screen.dart:67:17 - The method 'SwitchListTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SwitchListTile'. - undefined_method
+  error - settings_screen.dart:68:32 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:72:17 - The method 'SwitchListTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SwitchListTile'. - undefined_method
+  error - settings_screen.dart:73:32 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:82:11 - The method 'Card' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Card'. - undefined_method
+  error - settings_screen.dart:83:27 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:84:20 - The method 'ExpansionTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ExpansionTile'. - undefined_method
+  error - settings_screen.dart:85:28 - The name 'Row' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:87:19 - The method 'Icon' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - settings_screen.dart:87:24 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:87:47 - The method 'Color' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - settings_screen.dart:88:19 - The method 'SizedBox' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SizedBox'. - undefined_method
+  error - settings_screen.dart:89:19 - The method 'Text' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - settings_screen.dart:93:17 - The method 'ListTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ListTile'. - undefined_method
+  error - settings_screen.dart:94:34 - The name 'Icon' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:94:39 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:95:32 - The name 'Text' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:97:21 - Undefined name 'Navigator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:99:23 - The method 'MaterialPageRoute' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'MaterialPageRoute'. - undefined_method
+  error - settings_screen.dart:109:11 - The method 'Card' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Card'. - undefined_method
+  error - settings_screen.dart:110:27 - Undefined name 'EdgeInsets'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:111:20 - The method 'ExpansionTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ExpansionTile'. - undefined_method
+  error - settings_screen.dart:112:28 - The name 'Row' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - settings_screen.dart:114:19 - The method 'Icon' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Icon'. - undefined_method
+  error - settings_screen.dart:114:24 - Undefined name 'Icons'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - settings_screen.dart:114:43 - The method 'Color' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Color'. - undefined_method
+  error - settings_screen.dart:115:19 - The method 'SizedBox' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SizedBox'. - undefined_method
+  error - settings_screen.dart:116:19 - The method 'Text' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - settings_screen.dart:120:17 - The method 'ListTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ListTile'. - undefined_method
+  error - settings_screen.dart:120:17 - The values in a const list literal must be constants. Try removing the keyword 'const' from the list literal. - non_constant_list_element
+  error - settings_screen.dart:121:26 - The method 'Text' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - settings_screen.dart:122:29 - The method 'Text' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - settings_screen.dart:124:17 - The method 'ListTile' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ListTile'. - undefined_method
+  error - settings_screen.dart:124:17 - The values in a const list literal must be constants. Try removing the keyword 'const' from the list literal. - non_constant_list_element
+  error - settings_screen.dart:125:26 - The method 'Text' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - settings_screen.dart:126:29 - The method 'Text' isn't defined for the type '_SettingsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'Text'. - undefined_method
+  error - sos_service.dart:1:8 - Target of URI doesn't exist: 'package:geolocator/geolocator.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - sos_service.dart:2:8 - Target of URI doesn't exist: 'package:permission_handler/permission_handler.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - sos_service.dart:3:8 - Target of URI doesn't exist: 'package:sms_maintained/sms.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - sos_service.dart:4:8 - Target of URI doesn't exist: 'package:url_launcher/url_launcher.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - sos_service.dart:5:8 - Target of URI doesn't exist: 'package:connectivity_plus/connectivity_plus.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - sos_service.dart:6:8 - Target of URI doesn't exist: 'package:flutter/services.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - sos_service.dart:7:8 - Target of URI doesn't exist: 'package:supabase_flutter/supabase_flutter.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - sos_service.dart:14:21 - Undefined name 'Supabase'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - sos_service.dart:31:5 - Undefined class 'Position'. Try changing the name to the name of an existing class, or creating a class with the name 'Position'. - undefined_class
+  error - sos_service.dart:36:26 - Undefined name 'Geolocator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - sos_service.dart:50:34 - The method 'Connectivity' isn't defined for the type 'SosService'. Try correcting the name to the name of an existing method, or defining a method named 'Connectivity'. - undefined_method
+  error - sos_service.dart:52:27 - Undefined name 'ConnectivityResult'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - sos_service.dart:81:10 - The name 'Position' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'Position'. - non_type_as_type_argument
+  error - sos_service.dart:82:33 - The name 'Position' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'Position'. - non_type_as_type_argument
+  error - sos_service.dart:89:7 - Undefined name 'Geolocator'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - sos_service.dart:89:54 - Undefined name 'LocationAccuracy'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - sos_service.dart:104:24 - Undefined class 'Position'. Try changing the name to the name of an existing class, or creating a class with the name 'Position'. - undefined_class
+  error - sos_service.dart:132:17 - The method 'SmsSender' isn't defined for the type 'SosService'. Try correcting the name to the name of an existing method, or defining a method named 'SmsSender'. - undefined_method
+  error - sos_service.dart:132:37 - The method 'SmsMessage' isn't defined for the type 'SosService'. Try correcting the name to the name of an existing method, or defining a method named 'SmsMessage'. - undefined_method
+  error - sos_service.dart:145:13 - The method 'SmsSender' isn't defined for the type 'SosService'. Try correcting the name to the name of an existing method, or defining a method named 'SmsSender'. - undefined_method
+  error - sos_service.dart:145:33 - The method 'SmsMessage' isn't defined for the type 'SosService'. Try correcting the name to the name of an existing method, or defining a method named 'SmsMessage'. - undefined_method
+  error - sos_service.dart:152:7 - Undefined class 'Position'. Try changing the name to the name of an existing class, or creating a class with the name 'Position'. - undefined_class
+  error - sos_service.dart:173:16 - The method 'launchUrl' isn't defined for the type 'SosService'. Try correcting the name to the name of an existing method, or defining a method named 'launchUrl'. - undefined_method
+  error - sos_service.dart:174:13 - Undefined name 'Clipboard'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - sos_service.dart:174:37 - The name 'ClipboardData' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+warning - contacts_screen.dart:9:25 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - contacts_screen.dart:17:8 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - contacts_screen.dart:86:8 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - contacts_screen.dart:92:10 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - core\services\emergency_hardware_trigger.dart:29:13 - The value of the local variable 'ignoreBatteryStatus' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - core\services\emergency_hardware_trigger.dart:57:13 - The value of the local variable 'result' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - core\services\offline_queue_manager.dart:13:23 - The value of the field '_queueKey' isn't used. Try removing the field, or using it. - unused_field
+warning - history_screen.dart:9:24 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - history_screen.dart:17:8 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - history_screen.dart:51:10 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - login_screen.dart:9:22 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - login_screen.dart:20:8 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - login_screen.dart:29:10 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - main.dart:60:10 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - main.dart:80:10 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - main.dart:108:21 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - main.dart:139:8 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - main.dart:154:8 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - main.dart:352:10 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - settings_screen.dart:9:25 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+warning - settings_screen.dart:14:10 - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation. - override_on_non_overriding_member
+
+870 issues found.

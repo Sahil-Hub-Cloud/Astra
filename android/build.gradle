@@ -1,0 +1,39 @@
+subprojects {
+    project.buildscript {
+        configurations.all {
+            resolutionStrategy.eachDependency { details ->
+                if (details.requested.group == 'org.jetbrains.kotlin') {
+                    details.useVersion "2.1.0"
+                }
+            }
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.layout.buildDirectory.value(rootProject.layout.buildDirectory.dir("../../build").get())
+
+subprojects {
+    project.layout.buildDirectory.value(rootProject.layout.buildDirectory.dir(project.name))
+}
+
+subprojects {
+    afterEvaluate { project ->
+        if (project.extensions.findByName("android") != null) {
+            // Only set namespace if it's not already set to avoid conflicts with plugins
+            if (project.android.namespace == null) {
+                project.android.namespace = "com.astra.emergency." + project.name.replace("-", "_").replace(":", "_")
+            }
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.layout.buildDirectory
+}
