@@ -1,10 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 import 'core/routes/app_router.dart';
 import 'core/theme/app_theme.dart';
 import 'core/utils/error_handler.dart';
 import 'core/services/notification_service.dart';
+
+@pragma('vm:entry-point')
+Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
+  await Firebase.initializeApp();
+  final notification = message.notification;
+  if (notification != null) {
+    await NotificationService.showLocalNotification(
+      notification.title ?? 'Emergency Alert',
+      notification.body ?? 'Emergency SOS detected nearby',
+    );
+  }
+}
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,6 +47,7 @@ void main() async {
 
   // Initialize Firebase and notification service
   await NotificationService().initialize();
+  FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
   // Set up global error handler
   FlutterError.onError = (details) {

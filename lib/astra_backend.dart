@@ -16,8 +16,6 @@ class AstraBackend {
 
     _isCurrentlyProcessingSOS = true;
     try {
-      final userId = supabase.auth.currentUser?.id ?? 'anonymous_user';
-
       final incidentId = await supabase.rpc('create_incident_with_location', params: {
         'p_latitude': position.latitude,
         'p_longitude': position.longitude,
