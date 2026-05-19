@@ -15,6 +15,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
   bool _hardwareTriggerEnabled = true;
   bool _autoSendLocation = true;
   bool _voiceActivationEnabled = false;
+  bool _aiDangerZonesEnabled = true;
+  bool _suggestSaferRoutes = false;
 
   @override
   void initState() {
@@ -126,6 +128,18 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   subtitle: const Text('Say "help", "bachao", "emergency" to trigger SOS'),
                   value: _voiceActivationEnabled,
                   onChanged: _toggleVoiceActivation,
+                ),
+                SwitchListTile(
+                  title: const Text('AI Danger Zone Alerts'),
+                  subtitle: const Text('Predictive alerts when entering risky areas'),
+                  value: _aiDangerZonesEnabled,
+                  onChanged: (v) => setState(() => _aiDangerZonesEnabled = v),
+                ),
+                SwitchListTile(
+                  title: const Text('Suggest Safer Routes'),
+                  subtitle: const Text('AI analysis of route safety scores'),
+                  value: _suggestSaferRoutes,
+                  onChanged: (v) => setState(() => _suggestSaferRoutes = v),
                 ),
               ],
             ),

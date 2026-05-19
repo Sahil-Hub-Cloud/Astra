@@ -4,7 +4,6 @@ import 'package:geolocator/geolocator.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'dart:async';
-import 'dart:math' as math;
 
 import 'sos_service.dart';
 import 'astra_backend.dart';
@@ -13,9 +12,12 @@ import 'core/services/offline_queue_manager.dart';
 import 'core/utils/secure_storage.dart';
 import 'core/services/supabase_client.dart';
 import 'core/services/fake_call_service.dart';
+import 'core/services/danger_zone_service.dart';
+import 'core/constants/app_constants.dart';
 import 'features/dashboard/safety_dashboard_screen.dart';
 import 'features/feed/community_feed_screen.dart';
 import 'profile_screen.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 @pragma('vm:entry-point')
 void backgroundSmsEntryPoint() async {
@@ -92,8 +94,8 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
         currentIndex: _selectedIndex,
         onTap: (index) => setState(() => _selectedIndex = index),
         type: BottomNavigationBarType.fixed,
-        backgroundColor: const Color(0xFF1a1a2e),
-        selectedItemColor: const Color(0xFF7C3AED),
+        backgroundColor: AppConstants.surfaceDark,
+        selectedItemColor: AppConstants.primaryPurple,
         unselectedItemColor: Colors.white54,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.shield), label: 'Home'),
@@ -114,10 +116,12 @@ class HomeContent extends StatefulWidget {
 }
 
 class _HomeContentState extends State<HomeContent> with TickerProviderStateMixin, WidgetsBindingObserver {
+  GoogleMapController? _mapController;
+  final Set<Circle> _circles = {};
+  LatLng _currentMapPos = const LatLng(28.6139, 77.2090); // Default Delhi
+
   late AnimationController _pulseController;
-  late AnimationController _orbitController;
   late Animation<double> _pulseAnimation;
-  late Animation<double> _orbitAnimation;
 
   String _networkStatus = 'Checking...';
   String _gpsStatus = 'Checking...';
@@ -147,6 +151,31 @@ class _HomeContentState extends State<HomeContent> with TickerProviderStateMixin
     _startNearbyMonitoring();
     _monitorConnectivity();
     _startStatusUpdates();
+    _initDangerZones();
+  }
+
+  Future<void> _initDangerZones() async {
+    await DangerZoneService().updateDangerZones('New Delhi');
+    _updateMapZones();
+  }
+
+  void _updateMapZones() {
+    final zones = DangerZoneService().getZones();
+    setState(() {
+      _circles.clear();
+      for (final zone in zones) {
+        _circles.add(Circle(
+          circleId: CircleId(zone.reason),
+          center: LatLng(zone.lat, zone.lng),
+          radius: zone.radius,
+          fillColor: zone.riskLevel >= 7
+              ? Colors.red.withAlpha(77)
+              : Colors.orange.withAlpha(77),
+          strokeWidth: 1,
+          strokeColor: zone.riskLevel >= 7 ? Colors.red : Colors.orange,
+        ));
+      }
+    });
   }
 
   @override
@@ -154,7 +183,7 @@ class _HomeContentState extends State<HomeContent> with TickerProviderStateMixin
     WidgetsBinding.instance.removeObserver(this);
     _connectivitySubscription?.cancel();
     _pulseController.dispose();
-    _orbitController.dispose();
+    _mapController?.dispose();
     _emergencyTrigger.dispose();
     _incidentSubscription?.unsubscribe();
     _statusUpdateTimer?.cancel();
@@ -170,13 +199,6 @@ class _HomeContentState extends State<HomeContent> with TickerProviderStateMixin
     _pulseAnimation = Tween<double>(begin: 1.0, end: 1.15).animate(
       CurvedAnimation(parent: _pulseController, curve: Curves.easeInOut),
     );
-
-    _orbitController = AnimationController(
-      duration: const Duration(seconds: 20),
-      vsync: this,
-    )..repeat();
-
-    _orbitAnimation = Tween<double>(begin: 0.0, end: 2 * math.pi).animate(_orbitController);
   }
 
   void _setupHardwareTrigger() async {
@@ -290,7 +312,9 @@ class _HomeContentState extends State<HomeContent> with TickerProviderStateMixin
 
   Future<Position?> _getRobustPosition() async {
     try {
-      return await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high, timeLimit: const Duration(seconds: 5));
+      final pos = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high, timeLimit: const Duration(seconds: 5));
+      _checkLocationForCaution(pos);
+      return pos;
     } catch (_) {
       return await Geolocator.getLastKnownPosition();
     }
@@ -346,23 +370,50 @@ class _HomeContentState extends State<HomeContent> with TickerProviderStateMixin
         }
         context.pop();
       },
-      style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF7C3AED)),
+      style: ElevatedButton.styleFrom(backgroundColor: AppConstants.primaryPurple),
       child: Text(label),
     );
+  }
+
+  void _checkLocationForCaution(Position pos) {
+    final risk = DangerZoneService().isLocationDangerous(pos.latitude, pos.longitude);
+    if (risk >= 4 && mounted) {
+      showModalBottomSheet(
+        context: context,
+        backgroundColor: AppConstants.surfaceDark,
+        builder: (context) => Padding(
+          padding: const EdgeInsets.all(24.0),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Text('⚠️ Caution: High Incident Area', style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
+              const SizedBox(height: 16),
+              const Text('Recent incidents reported nearby. Stay alert and keep your phone accessible.', style: TextStyle(color: Colors.white70)),
+              const SizedBox(height: 24),
+              ElevatedButton(
+                onPressed: () => context.pop(),
+                style: ElevatedButton.styleFrom(backgroundColor: AppConstants.primaryPurple),
+                child: const Text('Got it, I\'ll be careful'),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF0F1419),
+      backgroundColor: AppConstants.backgroundDark,
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.push('/ai-companion'),
-        backgroundColor: const Color(0xFF7C3AED),
+        backgroundColor: AppConstants.primaryPurple,
         child: const Icon(Icons.security_update_good, color: Colors.white),
       ),
       body: Stack(
         children: [
-          _buildStarField(),
+          _buildMapBackground(),
           SafeArea(
             child: Padding(
               padding: const EdgeInsets.all(24.0),
@@ -381,34 +432,34 @@ class _HomeContentState extends State<HomeContent> with TickerProviderStateMixin
     );
   }
 
-  Widget _buildStarField() {
-    return AnimatedBuilder(
-      animation: _orbitAnimation,
-      builder: (context, child) {
-        return Container(
-          decoration: BoxDecoration(
-            gradient: RadialGradient(
-              colors: [const Color(0xFF1a1a2e).withAlpha(230), const Color(0xFF16213e).withAlpha(204), const Color(0xFF0f3460).withAlpha(179)],
-              center: Alignment.center,
-              radius: 1.5,
+  Widget _buildMapBackground() {
+    return Stack(
+      children: [
+        GoogleMap(
+          initialCameraPosition: CameraPosition(target: _currentMapPos, zoom: 13),
+          onMapCreated: (controller) => _mapController = controller,
+          myLocationEnabled: true,
+          myLocationButtonEnabled: false,
+          circles: _circles,
+          style: '[{"elementType":"geometry","stylers":[{"color":"#212121"}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#212121"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#757575"}]},{"featureType":"administrative.country","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]},{"featureType":"administrative.land_parcel","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#bdbdbd"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#181818"}]},{"featureType":"poi.park","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"poi.park","elementType":"labels.text.stroke","stylers":[{"color":"#1b1b1b"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#2c2c2c"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#8a8a8a"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#373737"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#3c3c3c"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry","stylers":[{"color":"#4e4e4e"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"transit","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#3d3d3d"}]}]',
+        ),
+        Positioned(
+          top: 140,
+          right: 16,
+          child: Container(
+            padding: const EdgeInsets.all(12),
+            decoration: BoxDecoration(color: AppConstants.surfaceDark.withAlpha(204), borderRadius: BorderRadius.circular(12)),
+            child: const Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(children: [CircleAvatar(radius: 6, backgroundColor: Colors.red), SizedBox(width: 8), Text('High Risk', style: TextStyle(color: Colors.white, fontSize: 12))]),
+                SizedBox(height: 4),
+                Row(children: [CircleAvatar(radius: 6, backgroundColor: Colors.orange), SizedBox(width: 8), Text('Moderate Risk', style: TextStyle(color: Colors.white, fontSize: 12))]),
+              ],
             ),
           ),
-          child: Stack(
-            children: List.generate(50, (index) {
-              final angle = _orbitAnimation.value + (index * 0.2);
-              final distance = 50.0 + (index * 3);
-              return Positioned(
-                left: 100 + distance * math.cos(angle),
-                top: 200 + distance * math.sin(angle),
-                child: Container(
-                  width: 2, height: 2,
-                  decoration: BoxDecoration(color: Colors.white.withAlpha(153), shape: BoxShape.circle),
-                ),
-              );
-            }),
-          ),
-        );
-      },
+        ),
+      ],
     );
   }
 

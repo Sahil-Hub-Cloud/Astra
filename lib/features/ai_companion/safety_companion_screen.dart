@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import '../../core/constants/app_constants.dart';
+import '../../core/services/danger_zone_service.dart';
 
 class SafetyCompanionScreen extends StatefulWidget {
   const SafetyCompanionScreen({super.key});
@@ -39,7 +40,7 @@ class _SafetyCompanionScreenState extends State<SafetyCompanionScreen> {
             {
               'parts': [
                 {
-                  'text': "You are Astra, an AI safety companion for women in India. Answer safety questions, give practical safety tips, provide emergency guidance. Be concise, calm, and supportive. Maximum 80 words per response. If someone is in immediate danger tell them to use the SOS button immediately. User says: $text"
+                  'text': "You are Astra, an AI safety companion for women in India. Answer safety questions, give practical safety tips, provide emergency guidance. Be concise, calm, and supportive. Maximum 80 words per response. If someone is in immediate danger tell them to use the SOS button immediately. Context: Current predicted danger zones: ${jsonEncode(DangerZoneService().getZones().map((z) => {'center': {'lat': z.lat, 'lng': z.lng}, 'radius': z.radius, 'reason': z.reason}).toList())}. User says: $text"
                 }
               ]
             }

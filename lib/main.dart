@@ -7,6 +7,7 @@ import 'core/routes/app_router.dart';
 import 'core/theme/app_theme.dart';
 import 'core/utils/error_handler.dart';
 import 'core/services/notification_service.dart';
+import 'core/services/danger_zone_service.dart';
 
 @pragma('vm:entry-point')
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
@@ -48,6 +49,9 @@ void main() async {
   // Initialize Firebase and notification service
   await NotificationService().initialize();
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
+
+  // Initialize Danger Zone monitoring
+  DangerZoneService().startProactiveMonitoring();
 
   // Set up global error handler
   FlutterError.onError = (details) {
