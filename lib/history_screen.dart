@@ -42,7 +42,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
         });
       }
     } catch (e) {
-      print('Error loading incident history: $e');
+      debugPrint('Error loading incident history: $e');
       if (mounted) {
         setState(() {
           _error = e.toString();

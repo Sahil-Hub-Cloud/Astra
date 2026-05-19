@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:firebase_core/firebase_core.dart';
 
 import 'core/routes/app_router.dart';
 import 'core/theme/app_theme.dart';
 import 'core/utils/error_handler.dart';
-import 'core/services/supabase_client.dart';
 import 'core/services/notification_service.dart';
 
 void main() async {

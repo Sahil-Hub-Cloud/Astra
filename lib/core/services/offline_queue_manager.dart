@@ -1,3 +1,4 @@
+import "package:flutter/foundation.dart";
 import '../../sos_service.dart';
 import 'package:collection/collection.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
@@ -30,7 +31,7 @@ class OfflineQueueManager {
     }
     
     await SharedQueueStorage.saveQueue(queue);
-    print('✅ Added ${recipients.length} SMS entries to offline queue. Total: ${queue.length}');
+    debugPrint('✅ Added ${recipients.length} SMS entries to offline queue. Total: ${queue.length}');
     
     await _triggerWorkManager();
   }
@@ -39,9 +40,9 @@ class OfflineQueueManager {
     try {
       const MethodChannel _channel = MethodChannel('astra/offline_queue');
       await _channel.invokeMethod('scheduleOfflineProcessing');
-      print('✅ WorkManager scheduled for offline queue processing');
+      debugPrint('✅ WorkManager scheduled for offline queue processing');
     } catch (e) {
-      print('⚠️ Could not trigger WorkManager, falling back to app-open processing: $e');
+      debugPrint('⚠️ Could not trigger WorkManager, falling back to app-open processing: $e');
     }
   }
   
@@ -57,7 +58,7 @@ class OfflineQueueManager {
       return;
     }
     
-    print('🔄 Processing offline queue: ${queue.length} items');
+    debugPrint('🔄 Processing offline queue: ${queue.length} items');
     
     final successfulSends = <int>[];
     
@@ -67,16 +68,16 @@ class OfflineQueueManager {
       
       if (success) {
         successfulSends.add(i);
-        print('✅ Successfully sent queued item ${i + 1}');
+        debugPrint('✅ Successfully sent queued item ${i + 1}');
       } else {
-        print('❌ Failed to send queued item ${i + 1}');
+        debugPrint('❌ Failed to send queued item ${i + 1}');
       }
     }
     
     if (successfulSends.isNotEmpty) {
       final remainingQueue = queue.whereIndexed((index, element) => !successfulSends.contains(index)).toList();
       await SharedQueueStorage.saveQueue(remainingQueue);
-      print('✅ Processed ${successfulSends.length} items, ${remainingQueue.length} remaining');
+      debugPrint('✅ Processed ${successfulSends.length} items, ${remainingQueue.length} remaining');
     }
     
     if (await SharedQueueStorage.getQueueSize() > 0) {
@@ -93,7 +94,7 @@ class OfflineQueueManager {
       await sosService.sendSmsToSingleContact(phoneNumber, message);
       return true;
     } catch (e) {
-      print('Failed to send queued item: $e');
+      debugPrint('Failed to send queued item: $e');
       return false;
     }
   }

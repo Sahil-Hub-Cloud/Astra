@@ -1,10 +1,8 @@
+import "package:go_router/go_router.dart";
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'astra_auth.dart';
 import 'core/services/emergency_hardware_trigger.dart';
 import 'core/services/settings_service.dart';
-import 'core/services/supabase_client.dart';
-import 'core/services/voice_activation_service.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});

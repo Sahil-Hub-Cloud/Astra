@@ -31,7 +31,7 @@ class ErrorHandler {
 
   void handleFlutterError(FlutterErrorDetails details) {
     final message = '${details.exception}\n${details.stack}';
-    print('FlutterError: $message');
+    debugPrint('FlutterError: $message');
     showError('App error. Please restart.');
   }
 }

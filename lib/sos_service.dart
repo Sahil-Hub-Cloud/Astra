@@ -1,3 +1,4 @@
+import "package:flutter/foundation.dart";
 import 'package:geolocator/geolocator.dart';
 import 'package:sms_advanced/sms_advanced.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -7,7 +8,6 @@ import 'dart:async';
 
 import 'core/services/offline_queue_manager.dart';
 import 'core/services/supabase_client.dart';
-import 'core/services/notification_service.dart';
 
 class SosService {
   final OfflineQueueManager _offlineQueue = OfflineQueueManager();
@@ -16,7 +16,7 @@ class SosService {
     try {
       await _makeEmergencyCall();
     } catch (e) {
-      print('Warning: Emergency call failed: $e — continuing');
+      debugPrint('Warning: Emergency call failed: $e — continuing');
     }
 
     Position? position;
@@ -32,7 +32,7 @@ class SosService {
         message = _buildMessageNoLocation();
       }
     } catch (e) {
-      print('Location error: $e');
+      debugPrint('Location error: $e');
       message = _buildMessageNoLocation();
     }
 
@@ -54,7 +54,7 @@ class SosService {
         }
       }
     } catch (e) {
-      print('Error in SOS flow: $e');
+      debugPrint('Error in SOS flow: $e');
       try {
         await _sendSmsToContacts(contacts, _buildMessageNoLocation());
       } catch (_) {}
@@ -111,7 +111,7 @@ class SosService {
           await sender.sendSms(SmsMessage(clean, message));
         }
       } catch (e) {
-        print('Failed to send SMS to $number: $e');
+        debugPrint('Failed to send SMS to $number: $e');
       }
     }
   }
@@ -135,14 +135,14 @@ class SosService {
         'p_status': 'active',
         'p_emergency_contacts': contacts,
       });
-      print('Supabase incident created');
+      debugPrint('Supabase incident created');
       
       // Fire-and-forget notification to contacts via edge function
       if (result is Map<String, dynamic> && result['id'] != null) {
         _notifyContactsEdgeFunction(result['id'] as String);
       }
     } catch (e) {
-      print('Failed to create Supabase incident: $e');
+      debugPrint('Failed to create Supabase incident: $e');
     }
   }
 
@@ -152,10 +152,10 @@ class SosService {
         'incident_id': incidentId,
         'timestamp': DateTime.now().toIso8601String(),
       });
-      print('notify-contacts edge function invoked for incident: $incidentId');
+      debugPrint('notify-contacts edge function invoked for incident: $incidentId');
     } catch (e) {
       // Never block SOS on notification failure
-      print('Failed to invoke notify-contacts: $e');
+      debugPrint('Failed to invoke notify-contacts: $e');
     }
   }
 
@@ -163,7 +163,7 @@ class SosService {
     final uri = Uri(scheme: 'tel', path: '112');
     if (!await launchUrl(uri)) {
       await Clipboard.setData(const ClipboardData(text: '112'));
-      print('Emergency number copied to clipboard: 112');
+      debugPrint('Emergency number copied to clipboard: 112');
     }
   }
 }

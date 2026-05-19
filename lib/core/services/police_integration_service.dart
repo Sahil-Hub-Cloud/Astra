@@ -1,4 +1,4 @@
-import 'package:supabase_flutter/supabase_flutter.dart';
+import "package:flutter/foundation.dart";
 import 'package:geolocator/geolocator.dart';
 import 'supabase_client.dart';
 
@@ -32,11 +32,11 @@ class PoliceIntegrationService {
       }).select();
 
       final alertId = response[0]['id'];
-      print('Police alert created: $alertId at ${location.latitude}, ${location.longitude}');
+      debugPrint('Police alert created: $alertId at ${location.latitude}, ${location.longitude}');
       
       return true;
     } catch (e) {
-      print('Error sending alert to police: $e');
+      debugPrint('Error sending alert to police: $e');
       return false;
     }
   }
@@ -57,7 +57,7 @@ class PoliceIntegrationService {
         'area_coverage': 'Full coverage in your area',
       };
     } catch (e) {
-      print('Error getting police availability: $e');
+      debugPrint('Error getting police availability: $e');
       return {
         'department_available': false,
         'estimated_response_time': 'Unknown',
@@ -71,7 +71,7 @@ class PoliceIntegrationService {
     try {
       return ['112', '100'];
     } catch (e) {
-      print('Error getting police contacts: $e');
+      debugPrint('Error getting police contacts: $e');
       return ['112'];
     }
   }
@@ -94,7 +94,7 @@ class PoliceIntegrationService {
 
       return response[0]['id'];
     } catch (e) {
-      print('Error submitting incident report: $e');
+      debugPrint('Error submitting incident report: $e');
       return null;
     }
   }
