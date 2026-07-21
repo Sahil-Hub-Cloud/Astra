@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'core/services/supabase_client.dart';
 
 class HistoryScreen extends StatefulWidget {
@@ -42,7 +43,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
         });
       }
     } catch (e) {
-      print('Error loading incident history: $e');
+      debugPrint('Error loading incident history: $e');
       if (mounted) {
         setState(() {
           _error = e.toString();
@@ -61,7 +62,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
         foregroundColor: Colors.white,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
-          onPressed: () => Navigator.pop(context),
+          onPressed: () => context.pop(),
         ),
       ),
       body: _isLoading

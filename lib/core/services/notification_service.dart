@@ -7,6 +7,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'supabase_client.dart';
 
 class NotificationService {
+  // TODO: The user must add google-services.json from Firebase Console to the android/app directory.
   static final NotificationService _instance = NotificationService._internal();
   factory NotificationService() => _instance;
   NotificationService._internal();
@@ -87,14 +88,11 @@ class NotificationService {
       final user = supabase.auth.currentUser;
       if (user == null) return;
 
-      await supabase
-          .from('user_tokens')
-          .upsert({
-            'user_id': user.id,
-            'fcm_token': token,
-            'updated_at': DateTime.now().toIso8601String(),
-          })
-          .eq('user_id', user.id);
+      await supabase.from('user_tokens').upsert({
+        'user_id': user.id,
+        'fcm_token': token,
+        'updated_at': DateTime.now().toIso8601String(),
+      });
     } catch (e) {
       debugPrint('Failed to save FCM token: $e');
     }

@@ -1,4 +1,4 @@
-import 'package:supabase_flutter/supabase_flutter.dart';
+import "package:flutter/foundation.dart";
 import 'package:geolocator/geolocator.dart';
 import 'core/services/supabase_client.dart';
 
@@ -10,14 +10,12 @@ class AstraBackend {
 
   Future<void> triggerEmergencySOS(Position position, List<String> contacts) async {
     if (_isCurrentlyProcessingSOS) {
-      print('⚠️ Emergency already in progress, skipping duplicate trigger');
+      debugPrint('⚠️ Emergency already in progress, skipping duplicate trigger');
       return;
     }
 
     _isCurrentlyProcessingSOS = true;
     try {
-      final userId = supabase.auth.currentUser?.id ?? 'anonymous_user';
-
       final incidentId = await supabase.rpc('create_incident_with_location', params: {
         'p_latitude': position.latitude,
         'p_longitude': position.longitude,
@@ -28,9 +26,9 @@ class AstraBackend {
         'p_emergency_contacts': contacts,
       });
 
-      print('Emergency incident created: $incidentId at ${position.latitude}, ${position.longitude}');
+      debugPrint('Emergency incident created: $incidentId at ${position.latitude}, ${position.longitude}');
     } catch (e) {
-      print('Error creating emergency incident: $e');
+      debugPrint('Error creating emergency incident: $e');
       rethrow;
     } finally {
       _isCurrentlyProcessingSOS = false;
@@ -47,7 +45,7 @@ class AstraBackend {
       });
       return result as List<dynamic>;
     } catch (e) {
-      print('Error fetching nearby incidents: $e');
+      debugPrint('Error fetching nearby incidents: $e');
       return [];
     }
   }
@@ -60,7 +58,7 @@ class AstraBackend {
       }
       return {'total_active': 0, 'total_resolved': 0, 'recent_24h': 0};
     } catch (e) {
-      print('Error fetching stats: $e');
+      debugPrint('Error fetching stats: $e');
       return {'total_active': 0, 'total_resolved': 0, 'recent_24h': 0};
     }
   }
@@ -69,7 +67,7 @@ class AstraBackend {
     try {
       await supabase.from('incidents').update({'status': status}).eq('id', incidentId);
     } catch (e) {
-      print('Error updating incident: $e');
+      debugPrint('Error updating incident: $e');
       rethrow;
     }
   }
@@ -82,7 +80,7 @@ class AstraBackend {
       final result = await supabase.from('incidents').select().eq('user_id', userId);
       return {'total_incidents': (result as List).length};
     } catch (e) {
-      print('Error fetching user stats: $e');
+      debugPrint('Error fetching user stats: $e');
       return {};
     }
   }

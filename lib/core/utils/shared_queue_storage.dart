@@ -1,3 +1,4 @@
+import "package:flutter/foundation.dart";
 import 'dart:io';
 import 'dart:convert';
 import 'package:path_provider/path_provider.dart';
@@ -43,9 +44,9 @@ class SharedQueueStorage {
       await tmpFile.writeAsString(jsonString);
       await tmpFile.rename(filePath);
       
-      print('✅ Queue saved atomically: ${queueData.length} items');
+      debugPrint('✅ Queue saved atomically: ${queueData.length} items');
     } catch (e) {
-      print('❌ Error saving queue: $e');
+      debugPrint('❌ Error saving queue: $e');
       rethrow;
     } finally {
       if (await lockFile.exists()) await lockFile.delete();
@@ -70,7 +71,7 @@ class SharedQueueStorage {
       
       return [];
     } catch (e) {
-      print('❌ Error loading queue: $e');
+      debugPrint('❌ Error loading queue: $e');
       return [];
     }
   }
@@ -82,10 +83,10 @@ class SharedQueueStorage {
       
       if (await file.exists()) {
         await file.delete();
-        print('✅ Queue file cleared');
+        debugPrint('✅ Queue file cleared');
       }
     } catch (e) {
-      print('❌ Error clearing queue: $e');
+      debugPrint('❌ Error clearing queue: $e');
     }
   }
   

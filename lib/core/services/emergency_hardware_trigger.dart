@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+import "package:flutter/foundation.dart";
 import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
 
@@ -29,7 +29,7 @@ class EmergencyHardwareTrigger {
       
       if (notificationStatus != PermissionStatus.granted) {
         if (kDebugMode) {
-          print('Notification permission denied');
+          debugPrint('Notification permission denied');
         }
         return false;
       }
@@ -38,13 +38,13 @@ class EmergencyHardwareTrigger {
       _isActive = result as bool;
       
       if (kDebugMode) {
-        print('Emergency hardware trigger enabled: $_isActive');
+        debugPrint('Emergency hardware trigger enabled: $_isActive');
       }
       
       return _isActive;
     } catch (e) {
       if (kDebugMode) {
-        print('Failed to enable emergency trigger: $e');
+        debugPrint('Failed to enable emergency trigger: $e');
       }
       return false;
     }
@@ -56,13 +56,13 @@ class EmergencyHardwareTrigger {
       _isActive = false;
       
       if (kDebugMode) {
-        print('Emergency hardware trigger disabled');
+        debugPrint('Emergency hardware trigger disabled');
       }
       
       return true;
     } catch (e) {
       if (kDebugMode) {
-        print('Failed to disable emergency trigger: $e');
+        debugPrint('Failed to disable emergency trigger: $e');
       }
       return false;
     }
@@ -74,7 +74,7 @@ class EmergencyHardwareTrigger {
       return status as int;
     } catch (e) {
       if (kDebugMode) {
-        print('Failed to get trigger status: $e');
+        debugPrint('Failed to get trigger status: $e');
       }
       return 0;
     }
